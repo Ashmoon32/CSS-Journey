@@ -1,0 +1,14 @@
+#main-header {
+    background-color: red;
+}
+
+#author {
+    font-style: italic;
+    font-weight: bold;
+    background-color: cyan;
+    font-size: 30px;
+}
+
+#second-header {
+    color:red;
+}
