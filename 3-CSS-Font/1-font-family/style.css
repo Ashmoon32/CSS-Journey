@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+
+
+h1 {
+    font-family: "Padauk", sans-serif ;
+}
+p {
+    font-family: "Padauk", sans-serif;
+}
+
+.padauk-regular {
+  font-family: "Padauk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.padauk-bold {
+  font-family: "Padauk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
