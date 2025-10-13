@@ -1,0 +1,53 @@
+.card {
+    box-shadow: inset 3px 3px 5px 0 #fff,
+    inset -3px -3px 5px 0 #c3c3c3,
+    -5px -5px 8px 2px #ffffff,
+    5px 5px 5px 0px #cacaca; 
+    padding: 20px;
+}
+
+.app-bar {
+    margin: 10px; 
+    /* the right answer  */
+    /* margin-bottom: 20px;*/
+}
+
+.profile-title {
+    /* the right answer is
+    text-align: center;
+    instead of 
+    margin-left:25%; */
+    margin-left: 25%;
+    margin-top: 10px;
+  
+}
+
+.profile-image {
+    margin: 10px auto;
+    /* margin: 5px auto 30px auto; //right answer */
+    
+}
+
+.profile-name {
+   margin: 20px 0px;
+   text-align: center;
+   font-weight: 400; /* Miss this */
+}
+
+.profile-position {
+    text-align: center;
+    margin-bottom: 15px; /* 10px */
+    font-weight: 200; /* miss this too */
+  
+}
+
+.profile-detail {
+   text-align: center;
+   margin-bottom: 5px; 
+  
+}
+  
+.app-button {
+    margin-top: 15px; 
+    margin: 20px auto 0px auto; /* True Answer*/
+}
