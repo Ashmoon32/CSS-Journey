@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: white;
+            background-color: #de1767;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            background-color: #241233;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        a:hover {
+            background-color: blue;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #dfdfdf;
+            border-radius: 1px solid #dfdfdf;
+            border-radius: 8px;
+        }
+
+        button:active {
+            color: white;
+            background-color: #241233;
+        }
+
+        .input {
+            padding:10px;
+            background-color: #dfdfdf;
+            border: 1px solid #cbcbcb;
+            border-radius: 8px
+        }
+
+        .input:focus {
+            outline: 2px solid #9217de;
+        }
+
+        select:focus {
+            outline: 2px solid #241233;
+        }
+
+        a[href="index1.html"]:link {
+            background-color: red;
+        }
+
+        a[class$="HTML"]:visited {
+            background-color: blue;
+        }
+
+        a[class~="testHTML"]:hover {
+            background-color: green;
+        }
+
+        a[class^="test"]:active {
+            background-color: yellow;
+        }
+
+        input[class*="tHT"]:focus {
+            background-color: black;
+        }
+
+        input[class$=""]
+
+    </style>
+</head>
+<body>
+    <a href="blabla.html">Go To Link</a>
+    <a href="index.html">Submit</a>
+
+    <button type="button" > Button</button>
+
+    <input type="text" class="input" name="name">
+
+
+    <select name="country" id="cty">
+        <option value="myan">Myanmar</option>
+        <option value="jap">Japan</option>
+        <option value="US">US</option>
+    </select>
+
+
+    <a href="index1.html" class="testHTML">Click to go index1.html</a>
+
+    <input type="text" class="TestHTML">
+</body>
+</html>
