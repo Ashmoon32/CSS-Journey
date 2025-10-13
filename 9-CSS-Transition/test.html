@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Card Effect</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f3f3f3;
+      font-family: sans-serif;
+    }
+
+    .card {
+      width: 250px;
+      height: 150px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateX(-10px) translateY(-10px) scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2),
+      inset 3px 3px 5px #cacaca,
+      inset -3px -3px 5px #dfdfdf,
+      -3px -3px 5px #cacaca;
+    }
+
+     .circle {
+      width: 100px;
+      height: 100px;
+      background: tomato;
+      border-radius: 50%;
+      position: relative;
+      animation: moveUpDown 2s ease-in-out infinite;
+    }
+
+    @keyframes moveUpDown {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-50px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card"></div>
+  <div class="circle"></div>
+
+</body>
+</html>

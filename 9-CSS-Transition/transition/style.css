@@ -1,0 +1,56 @@
+/* div {
+    width: 80px;
+    height: 80px;
+    transition: all 1s linear 0.5s;
+    background-color: black;
+    color: white;
+}
+
+div:hover {
+    width: 120px;
+    height: 120px;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 2000px;
+    border: 2px solid black;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.box1 {
+    height: 300px;
+    width: auto;
+    margin: 20 auto;
+    padding: 20px;
+    background-color: #dfdfdf;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    position: sticky;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.box1:hover {
+     transition: all 0.3s ease-in-out 0.3s;
+     background-color: black;
+     color: #fff;
+     height: 320px;
+     width: auto;
+}
+
+button:hover {
+    transition:all 0.3s linear 0.2s;
+    background-color: cyan;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
