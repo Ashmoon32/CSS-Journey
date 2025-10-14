@@ -1,0 +1,25 @@
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: black;
+        background-color: white;
+        border: 2px solid #dfdfdf;
+        border-radius: 15px;
+        height: 300px;
+        box-shadow: inset 3px 3px 5px #dfdfdf,
+        inset -3px -3px 5px #fff,
+        3px 3px 5px #dfdfdf,
+        -3px -3px 5px #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+    }
+    .title:hover {
+        transform: translateY(8px) scale(1);
+        
+
+        
+    }
+}

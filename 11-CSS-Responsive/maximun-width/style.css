@@ -1,0 +1,48 @@
+.title {
+    text-align: center;
+    padding-left: 10px;
+}
+
+/* For Only Phone */
+@media screen and (max-width: 640px) {
+    .title {
+        text-align: left;
+        border-left: 4px solid #ff2424;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        color: white;
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 200px;
+        color: red;
+        text-decoration: underline;
+    }
+
+    body {
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .title {
+        border: 5px solid gray;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    body {
+        background-color: black;
+    }
+}
