@@ -1,0 +1,53 @@
+.container {
+    max-width: 480px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 2rem;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid black;
+    height: 400px;
+    max-width: 500px;
+    border-radius: 10px;
+
+}
+
+.box-style {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.color-gray {
+    background-color: gray;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.box-style-2 {
+    /* height: 30px;
+    width: 30px; */
+    border-radius: 10px;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-stretch {
+    
+    min-height: 30px; /* when using aling-self: stretch; , we can't give fix unit on height like "px".*/
+    align-self: stretch;
+}
