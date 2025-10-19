@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   
+</head>
+<body>
+    
+<!-- Dropdowns -->
+
+<div class="dropdown">
+    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+        Send Now
+    </button>
+
+    <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a href="#" class="dropdown-item">Send Now</a></li>
+        <li class="dropdown-divider"></li>
+        <li><a href="#" class="dropdown-item">Save Draft</a></li>
+        <li class="dropdown-divider"></li>
+        <li><a href="#" class="dropdown-item">Preview</a></li>
+    </ul>
+</div>
+
+<!-- Collapse-->
+<!-- Can use this in Freqency asked questions section for showing more details -->
+<p>
+    <a 
+        class="btn btn-primary dropdown-toggle" data-bs-toggle="collapse"
+        href="#item"
+        >
+        Is Coursera really worth to invest your time, energy and money?
+    </a>
+    
+</p>
+
+<div class="collapse" id="item">
+    <div class="card card-body">
+        <h5 class="card-title">Short answer, yes definitely!</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus, et numquam perspiciatis labore iure quasi, ipsa at aperiam quae aspernatur consequuntur placeat? Fuga possimus quibusdam cupiditate, incidunt accusamus commodi.</p>
+    </div>
+</div>
+
+<!-- Modals-->
+<!-- can use in log in section and cta section-->
+<button 
+    class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#feedback"
+>
+    Show Modal
+</button>
+
+<div class="modal fade" id="feedback">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Feedback</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    
+                  <div class="form-floating mb-3">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name...">
+                    <label for="name">Your Name...</label>
+                    
+                  </div>
+
+                <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="email" placeholder="Email Address">
+                <label for="email">Email Address</label>
+                
+                </div>
+
+                <div>
+                    <textarea class="form-control"></textarea>
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary">Send Feedback</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Carousels -->
+ <div class="carousel slide" id="slide"  data-bs-ride="carousel">
+
+    <ol class="carousel-indicators">
+        <li data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#slide" data-bs-slide-to="1"></li>
+        <li data-bs-target="#slide" data-bs-slide-to="2"></li>
+        
+    </ol>
+
+    <a href="#slide" class="carousel-control-prev" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#slide" class="carousel-control-next" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="bg-primary" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-success" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-warning" style="height: 200px;"></div>
+                </div>
+    </div>
+ </div>
+
+ <!-- Spinners -->
+
+ <span class="spinner-border text-primary"></span>
+ <span class="spinner-border text-success"></span>
+ <span class="spinner-border text-warning"></span>
+
+<div class="mt-5 mb-5">
+    <button class="btn btn-primary" disabled>
+    <span class="spinner-border spinner-border-sm">
+    </span>
+    <span class="ml-2">Loading...</span>
+    </button>
+</div>
+
+<span class="spinner-grow text-primary"></span>
+<span class="spinner-grow text-success"></span>
+<span class="spinner-grow text-danger"></span>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
