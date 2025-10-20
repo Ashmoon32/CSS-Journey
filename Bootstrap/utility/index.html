@@ -35,6 +35,36 @@
 
     <div class="bg-warning p-4 clearfix">
         <h1 class="float-md-start">Some Title</h1>
+        <h1 class="float-lg-end">Hey! I am big.</h1>
         <h2 class="float-md-end">Some sub-title</h2>
+        
+        <div class="bg-dark p-2" style="height: 800px">
+            <div class="h-50 w-75 bg-light p-auto m-0 m-auto text-center">Hello! Hi! Boo!!!</div>
+        </div>
     </div>
+
+    <!-- Typography -->
+    <h1 class="text-lg-center text-start bg-primary text-dark fw-ligher fst-italic text-decoration-underline">Hey there!</h1>
+    <h1 class="text-lg-center text-end bg-danger text-light fw-bolder fst-normal text-decoration-line-through lh-lg">bla bla bla</h1>
+
+    <!-- Position -->
+     <div class="position-relative bg-dark" style="height: 200px">
+        <div class="position-absolute
+        bg-light top-50 start-50
+        w-25 h-25 
+        translate-middle">
+
+        </div>
+     </div>
+
+
+     <!-- Center Element with position : 1st way-->
+     <div class=" bg-danger rounded border border-4-primary"  style="height: 500px; width: 500px; position: relative;">
+        <div class="bg-secondary" style="height: 150px; width: 200px; position: absolute;top: 50%;left:50%; transform: translate(-50%, -50%);"></div>
+     </div>
+
+     <!-- cente element with position : 2nd way-->
+     <div class="bg-primary border border-3 border-danger rounded" style="height: 300px; width: 300px; position: relative;">
+        <div class="bg-dark" style="position: absolute; inset:0; height: 100px;width: 100px;margin: auto;"></div>
+     </div>
 </html>
