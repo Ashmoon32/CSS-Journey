@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .container {
     background-color: #C9D6FF;
     line-height: 1.6rem;
@@ -115,7 +116,38 @@ footer {
     color: #333;
     padding: 10px;
     background-color: #dfdfdfaa;
- 
-}
+ }
 
 /* Done for mobile */
+
+@media(min-width:768px){
+    .project-cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .card {
+        padding: 100px 0;
+    }
+
+}
+
+@media(min-width:1024px) {
+    .project-cards {
+        grid-template-columns: repeat(3,minmax(30%,1fr));
+    }
+
+    .hero {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+
+    main {
+        margin: 10px auto;
+        padding: 70px 0;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+}
